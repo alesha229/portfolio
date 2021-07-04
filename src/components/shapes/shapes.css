@@ -1,0 +1,88 @@
+.shape_container{
+    position: relative;
+    height: 85vh;
+}
+.shape_item{
+    position: absolute;
+}
+.shape_big_item{
+    background-image: url(./images/big.svg);
+    width: 58vw;
+    height: 58vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top:-17vw;
+    left:-20vw
+}
+.shape_small_item{
+    background-image: url(./images/small.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.shape_container div:nth-child(2){
+    width: 4vw;
+    height: 4vw;
+    top:22vw;
+    left:38vw;
+    animation: anim 3s alternate;
+    animation-iteration-count: infinite 
+}
+.shape_container div:nth-child(3){
+    width: 2.6vw;
+    height: 2.6vw;
+    top:15vw;
+    left:55vw;
+    animation: anim 3s forwards alternate;
+    animation-iteration-count: infinite ;
+    animation-delay: .1s;
+}
+.shape_container div:nth-child(4){
+    width: 0.8vw;
+    height: 0.8vw;
+    top:18vw;
+    left:63vw;
+    animation: anim 3s forwards alternate;
+    animation-iteration-count: infinite ;
+    animation-delay: .3s;
+}
+.shape_container div:nth-child(5){
+    width: 1.8vw;
+    height: 1.8vw;
+    top:13vw;
+    left:67vw;
+    animation: anim 3s forwards alternate;
+    animation-iteration-count: infinite ;
+    animation-delay: .4s;
+}
+.shape_container div:nth-child(6){
+    width: 2vw;
+    height: 2vw;
+    top:8vw;
+    left:75vw;
+    animation: anim 3s forwards alternate;
+    animation-iteration-count: infinite ;
+    animation-delay: .7s;
+}
+.shape_container div:nth-child(7){
+    width: 2.3vw;
+    height: 2.3vw;
+    top:10vw;
+    left:85vw;
+    animation: anim 3s forwards alternate;
+    animation-iteration-count: infinite ;
+    animation-delay: .8s;
+}
+@keyframes anim {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(3vw);
+    }
+    to {
+        transform: translateY(0vw);
+    }
+  }
+
