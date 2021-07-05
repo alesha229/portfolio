@@ -1,6 +1,10 @@
+.back{
+    position: absolute;
+    height: 85vh;
+    width: 100%;
+}
 .shape_container{
     position: relative;
-    height: 85vh;
 }
 .shape_item{
     position: absolute;
@@ -13,7 +17,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     top:-17vw;
-    left:-20vw
+    left:-20vw;
 }
 .obj{
     background-image: url(./images/small.svg);

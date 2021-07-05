@@ -5,3 +5,43 @@
 body{
   margin: 0;
 }
+.wrapper{
+  display: flex;
+  max-width: 1250px;
+  margin: 0 auto;
+  z-index: 1; 
+  flex-direction: column;
+}
+h1{
+font-family: "popins-extrabold",Fallback, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 96px;
+color: #7EC8E3;
+}
+p{
+font-family: "Raleway-Light";
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+color: #7EC8E3;
+}
+strong{
+  color:#0000FF
+}
+@font-face {
+  font-family: 'popins-extrabold';
+  src: local('popins-extrabold'), url(./fonts/Poppins-ExtraBold.ttf) format('truetype');
+  font-weight: initial;
+}
+@font-face {
+  font-family: 'Raleway-Light';
+  src: local('Raleway-Light'), url(./fonts/Raleway-Light.ttf) format('truetype');
+  font-weight: initial;
+}
+.svg_img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

@@ -1,0 +1,44 @@
+.header{
+    margin-top: 70px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_header{
+    margin-left: 35%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 11;
+}
+.main_stack{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.card_stack{
+    flex-basis: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_stack_down{
+    margin-top: 50px;
+}
+.JS{
+    background-image: url(./images/js.svg);
+    height: 140px;
+    width: 140px;
+}
+.REACT{
+    background-image: url(./images/react.svg);
+    background-size: 100%;
+    height: 140px;
+    width: 140px;
+}
+.GIT{
+    background-image: url(./images/git.svg);
+    height: 140px;
+    width: 140px;
+}
