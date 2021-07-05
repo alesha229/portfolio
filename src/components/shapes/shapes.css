@@ -15,64 +15,76 @@
     top:-17vw;
     left:-20vw
 }
-.shape_small_item{
+.obj{
     background-image: url(./images/small.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.shape_container div:nth-child(2){
+.obj1{
     width: 4vw;
     height: 4vw;
+}
+.shape_container div:nth-child(2){
+    animation: anim 3s alternate;
+    animation-iteration-count: infinite ;
     top:22vw;
     left:38vw;
-    animation: anim 3s alternate;
-    animation-iteration-count: infinite 
 }
-.shape_container div:nth-child(3){
+.obj2{
     width: 2.6vw;
     height: 2.6vw;
-    top:15vw;
-    left:55vw;
+}
+.shape_container div:nth-child(3){
     animation: anim 3s forwards alternate;
     animation-iteration-count: infinite ;
     animation-delay: .1s;
+    top:15vw;
+    left:55vw;
 }
-.shape_container div:nth-child(4){
+.obj3{
     width: 0.8vw;
     height: 0.8vw;
-    top:18vw;
-    left:63vw;
+}
+.shape_container div:nth-child(4){
     animation: anim 3s forwards alternate;
     animation-iteration-count: infinite ;
     animation-delay: .3s;
+    top:18vw;
+    left:63vw;
 }
-.shape_container div:nth-child(5){
+.obj4{
     width: 1.8vw;
     height: 1.8vw;
-    top:13vw;
-    left:67vw;
+}
+.shape_container div:nth-child(5){
     animation: anim 3s forwards alternate;
     animation-iteration-count: infinite ;
     animation-delay: .4s;
+    top:13vw;
+    left:67vw;
 }
-.shape_container div:nth-child(6){
+.obj5{
     width: 2vw;
     height: 2vw;
-    top:8vw;
-    left:75vw;
+}
+.shape_container div:nth-child(6){
     animation: anim 3s forwards alternate;
     animation-iteration-count: infinite ;
     animation-delay: .7s;
+    top:8vw;
+    left:75vw;
 }
-.shape_container div:nth-child(7){
+.obj6{
     width: 2.3vw;
     height: 2.3vw;
-    top:10vw;
-    left:85vw;
+}
+.shape_container div:nth-child(7){
     animation: anim 3s forwards alternate;
     animation-iteration-count: infinite ;
     animation-delay: .8s;
+    top:10vw;
+    left:85vw;
 }
 @keyframes anim {
     from {
