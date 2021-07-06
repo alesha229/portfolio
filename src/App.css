@@ -1,6 +1,5 @@
 .App{
   background-color: #050A30;
-  height: 100vh;
 }
 body{
   margin: 0;
@@ -40,8 +39,25 @@ strong{
   src: local('Raleway-Light'), url(./fonts/Raleway-Light.ttf) format('truetype');
   font-weight: initial;
 }
+@font-face {
+  font-family: 'PontanoSans-Regular';
+  src: local('PontanoSans-Regular'), url(./fonts/PontanoSans-Regular.ttf) format('truetype');
+  font-weight: initial;
+}
 .svg_img{
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+.center{
+  text-align: center;
+}
+.text{
+font-family: "PontanoSans-Regular";
+font-size: 48px;
+line-height: 61px;
+color: #7EC8E3;
+}
+a{
+  text-decoration: none;
 }

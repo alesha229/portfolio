@@ -1,7 +1,9 @@
 import './App.css';
-import Header from './components/header/header';
 import React from 'react';
 import Shapes from './components/shapes/shapes';
+import Header from './components/header/header';
+import Additional from './components/additional/additional';
+import About from './components/about/about';
 function App() {
   return (
     <div className="App">
@@ -9,6 +11,8 @@ function App() {
       <div className="wrapper">
         <Header />
       </div>
+      <Additional/>
+      <About/>
     </div>
   );
 }
